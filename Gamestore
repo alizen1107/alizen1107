@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameStore - Gaming Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h1 class="logo">GAMESTORE</h1>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Game Store</a></li>
+            <li><a href="#">My Games</a></li>
+            <li><a href="#">Favorites</a></li>
+            <li><a href="#">Tournaments</a></li>
+            <li><a href="#">Coming Soon</a></li>
+            <li><a href="#">Blog & News</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+        <div class="discount-box">
+            <p>Get your first game with 20% Discount!</p>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h2>PLAY YOUR WAY EXPERIENCE OF GAMING</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod tempor incididunt ut labore et dolore.</p>
+            <button>Check Now</button>
+        </div>
+
+        <div class="games-section">
+            <h3>Games on Sale Now</h3>
+            <div class="game">
+                <img src="ga3.jpg" alt="MW2">
+                <p>COD MW2</p>
+                <button>$39.99</button>
+            </div>
+            <div class="game">
+                <img src="ga2.jpg" alt="FORZA5">
+                <p>FORZA HORIZON5</p>
+                <button>$59.99</button>
+            </div>
+            <div class="game">
+                <img src="ga1.jpg" alt="GTA5">
+                <p>GTA5</p>
+                <button>$49.99</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
